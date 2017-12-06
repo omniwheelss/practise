@@ -1,4 +1,1 @@
-<?php
-
-echo md5("welcome123");
-?>
+THis is hello world
