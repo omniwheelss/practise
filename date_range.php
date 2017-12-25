@@ -25,6 +25,9 @@ function createDateRangeArray($strDateFrom,$strDateTo)
     return $aryRange;
 }
 
-$Date_Range = createDateRangeArray("2017-10-01", "2017-10-01");
+$From = $_REQUEST['from'];
+$To = $_REQUEST['to'];
+
+$Date_Range = createDateRangeArray($From, $To);
 print_r($Date_Range);
 ?>
