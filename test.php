@@ -1,1 +1,5 @@
-THis is hello world
+<?php
+
+echo md5("boat123");
+
+?>
